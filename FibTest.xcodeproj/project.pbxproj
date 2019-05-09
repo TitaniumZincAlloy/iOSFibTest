@@ -8,63 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		76BB20A02283C4EF00EFBFA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB209F2283C4EF00EFBFA7 /* AppDelegate.swift */; };
-		76BB20A22283C4EF00EFBFA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB20A12283C4EF00EFBFA7 /* ViewController.swift */; };
+		76BB20A22283C4EF00EFBFA7 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB20A12283C4EF00EFBFA7 /* CalculatorViewController.swift */; };
 		76BB20A52283C4EF00EFBFA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76BB20A32283C4EF00EFBFA7 /* Main.storyboard */; };
 		76BB20A72283C4F000EFBFA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76BB20A62283C4F000EFBFA7 /* Assets.xcassets */; };
 		76BB20AA2283C4F000EFBFA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76BB20A82283C4F000EFBFA7 /* LaunchScreen.storyboard */; };
-		76BB20B52283C4F000EFBFA7 /* FIbTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB20B42283C4F000EFBFA7 /* FIbTestTests.swift */; };
-		76BB20C02283C4F000EFBFA7 /* FIbTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB20BF2283C4F000EFBFA7 /* FIbTestUITests.swift */; };
+		76BB20CF2283CAF600EFBFA7 /* FibonacciCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB20CE2283CAF600EFBFA7 /* FibonacciCalculator.swift */; };
+		76BB20D22283CED200EFBFA7 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB20D12283CED200EFBFA7 /* SummaryViewController.swift */; };
+		76BB20D42283D0E100EFBFA7 /* FibonacciCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB20D32283D0E100EFBFA7 /* FibonacciCache.swift */; };
+		76BB20D62283D12500EFBFA7 /* FibonacciTimeResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB20D52283D12500EFBFA7 /* FibonacciTimeResult.swift */; };
+		76BB20D82283D16800EFBFA7 /* FibonacciResultHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB20D72283D16800EFBFA7 /* FibonacciResultHistory.swift */; };
+		76BB20DB2283D81A00EFBFA7 /* TimeUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BB20DA2283D81A00EFBFA7 /* TimeUtilities.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		76BB20B12283C4F000EFBFA7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 76BB20942283C4EF00EFBFA7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 76BB209B2283C4EF00EFBFA7;
-			remoteInfo = FIbTest;
-		};
-		76BB20BC2283C4F000EFBFA7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 76BB20942283C4EF00EFBFA7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 76BB209B2283C4EF00EFBFA7;
-			remoteInfo = FIbTest;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		76BB209C2283C4EF00EFBFA7 /* FIbTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FIbTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76BB209F2283C4EF00EFBFA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		76BB20A12283C4EF00EFBFA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76BB20A12283C4EF00EFBFA7 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		76BB20A42283C4EF00EFBFA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76BB20A62283C4F000EFBFA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76BB20A92283C4F000EFBFA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76BB20AB2283C4F000EFBFA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76BB20B02283C4F000EFBFA7 /* FIbTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FIbTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		76BB20B42283C4F000EFBFA7 /* FIbTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIbTestTests.swift; sourceTree = "<group>"; };
-		76BB20B62283C4F000EFBFA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76BB20BB2283C4F000EFBFA7 /* FIbTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FIbTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		76BB20BF2283C4F000EFBFA7 /* FIbTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIbTestUITests.swift; sourceTree = "<group>"; };
-		76BB20C12283C4F000EFBFA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76BB20CE2283CAF600EFBFA7 /* FibonacciCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciCalculator.swift; sourceTree = "<group>"; };
+		76BB20D12283CED200EFBFA7 /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		76BB20D32283D0E100EFBFA7 /* FibonacciCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciCache.swift; sourceTree = "<group>"; };
+		76BB20D52283D12500EFBFA7 /* FibonacciTimeResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciTimeResult.swift; sourceTree = "<group>"; };
+		76BB20D72283D16800EFBFA7 /* FibonacciResultHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciResultHistory.swift; sourceTree = "<group>"; };
+		76BB20DA2283D81A00EFBFA7 /* TimeUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeUtilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		76BB20992283C4EF00EFBFA7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		76BB20AD2283C4F000EFBFA7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		76BB20B82283C4F000EFBFA7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,9 +50,7 @@
 		76BB20932283C4EF00EFBFA7 = {
 			isa = PBXGroup;
 			children = (
-				76BB209E2283C4EF00EFBFA7 /* FIbTest */,
-				76BB20B32283C4F000EFBFA7 /* FIbTestTests */,
-				76BB20BE2283C4F000EFBFA7 /* FIbTestUITests */,
+				76BB209E2283C4EF00EFBFA7 /* FibTest */,
 				76BB209D2283C4EF00EFBFA7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,41 +59,59 @@
 			isa = PBXGroup;
 			children = (
 				76BB209C2283C4EF00EFBFA7 /* FIbTest.app */,
-				76BB20B02283C4F000EFBFA7 /* FIbTestTests.xctest */,
-				76BB20BB2283C4F000EFBFA7 /* FIbTestUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		76BB209E2283C4EF00EFBFA7 /* FIbTest */ = {
+		76BB209E2283C4EF00EFBFA7 /* FibTest */ = {
 			isa = PBXGroup;
 			children = (
+				76BB20D02283CEB300EFBFA7 /* ViewControllers */,
+				76BB20CD2283CAB900EFBFA7 /* Model */,
 				76BB209F2283C4EF00EFBFA7 /* AppDelegate.swift */,
-				76BB20A12283C4EF00EFBFA7 /* ViewController.swift */,
 				76BB20A32283C4EF00EFBFA7 /* Main.storyboard */,
 				76BB20A62283C4F000EFBFA7 /* Assets.xcassets */,
 				76BB20A82283C4F000EFBFA7 /* LaunchScreen.storyboard */,
 				76BB20AB2283C4F000EFBFA7 /* Info.plist */,
 			);
-			path = FIbTest;
+			path = FibTest;
 			sourceTree = "<group>";
 		};
-		76BB20B32283C4F000EFBFA7 /* FIbTestTests */ = {
+		76BB20CD2283CAB900EFBFA7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				76BB20B42283C4F000EFBFA7 /* FIbTestTests.swift */,
-				76BB20B62283C4F000EFBFA7 /* Info.plist */,
+				76BB20DC2283D81F00EFBFA7 /* Utilities */,
+				76BB20D92283D80200EFBFA7 /* Fibonacci */,
 			);
-			path = FIbTestTests;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		76BB20BE2283C4F000EFBFA7 /* FIbTestUITests */ = {
+		76BB20D02283CEB300EFBFA7 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				76BB20BF2283C4F000EFBFA7 /* FIbTestUITests.swift */,
-				76BB20C12283C4F000EFBFA7 /* Info.plist */,
+				76BB20A12283C4EF00EFBFA7 /* CalculatorViewController.swift */,
+				76BB20D12283CED200EFBFA7 /* SummaryViewController.swift */,
 			);
-			path = FIbTestUITests;
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		76BB20D92283D80200EFBFA7 /* Fibonacci */ = {
+			isa = PBXGroup;
+			children = (
+				76BB20CE2283CAF600EFBFA7 /* FibonacciCalculator.swift */,
+				76BB20D32283D0E100EFBFA7 /* FibonacciCache.swift */,
+				76BB20D52283D12500EFBFA7 /* FibonacciTimeResult.swift */,
+				76BB20D72283D16800EFBFA7 /* FibonacciResultHistory.swift */,
+			);
+			path = Fibonacci;
+			sourceTree = "<group>";
+		};
+		76BB20DC2283D81F00EFBFA7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				76BB20DA2283D81A00EFBFA7 /* TimeUtilities.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,42 +134,6 @@
 			productReference = 76BB209C2283C4EF00EFBFA7 /* FIbTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		76BB20AF2283C4F000EFBFA7 /* FIbTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 76BB20C72283C4F000EFBFA7 /* Build configuration list for PBXNativeTarget "FIbTestTests" */;
-			buildPhases = (
-				76BB20AC2283C4F000EFBFA7 /* Sources */,
-				76BB20AD2283C4F000EFBFA7 /* Frameworks */,
-				76BB20AE2283C4F000EFBFA7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				76BB20B22283C4F000EFBFA7 /* PBXTargetDependency */,
-			);
-			name = FIbTestTests;
-			productName = FIbTestTests;
-			productReference = 76BB20B02283C4F000EFBFA7 /* FIbTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		76BB20BA2283C4F000EFBFA7 /* FIbTestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 76BB20CA2283C4F000EFBFA7 /* Build configuration list for PBXNativeTarget "FIbTestUITests" */;
-			buildPhases = (
-				76BB20B72283C4F000EFBFA7 /* Sources */,
-				76BB20B82283C4F000EFBFA7 /* Frameworks */,
-				76BB20B92283C4F000EFBFA7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				76BB20BD2283C4F000EFBFA7 /* PBXTargetDependency */,
-			);
-			name = FIbTestUITests;
-			productName = FIbTestUITests;
-			productReference = 76BB20BB2283C4F000EFBFA7 /* FIbTestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -194,17 +147,9 @@
 					76BB209B2283C4EF00EFBFA7 = {
 						CreatedOnToolsVersion = 10.0;
 					};
-					76BB20AF2283C4F000EFBFA7 = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 76BB209B2283C4EF00EFBFA7;
-					};
-					76BB20BA2283C4F000EFBFA7 = {
-						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 76BB209B2283C4EF00EFBFA7;
-					};
 				};
 			};
-			buildConfigurationList = 76BB20972283C4EF00EFBFA7 /* Build configuration list for PBXProject "FIbTest" */;
+			buildConfigurationList = 76BB20972283C4EF00EFBFA7 /* Build configuration list for PBXProject "FibTest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,8 +163,6 @@
 			projectRoot = "";
 			targets = (
 				76BB209B2283C4EF00EFBFA7 /* FIbTest */,
-				76BB20AF2283C4F000EFBFA7 /* FIbTestTests */,
-				76BB20BA2283C4F000EFBFA7 /* FIbTestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,20 +178,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76BB20AE2283C4F000EFBFA7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		76BB20B92283C4F000EFBFA7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -256,41 +185,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76BB20A22283C4EF00EFBFA7 /* ViewController.swift in Sources */,
+				76BB20D62283D12500EFBFA7 /* FibonacciTimeResult.swift in Sources */,
+				76BB20DB2283D81A00EFBFA7 /* TimeUtilities.swift in Sources */,
+				76BB20A22283C4EF00EFBFA7 /* CalculatorViewController.swift in Sources */,
+				76BB20CF2283CAF600EFBFA7 /* FibonacciCalculator.swift in Sources */,
+				76BB20D82283D16800EFBFA7 /* FibonacciResultHistory.swift in Sources */,
 				76BB20A02283C4EF00EFBFA7 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		76BB20AC2283C4F000EFBFA7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				76BB20B52283C4F000EFBFA7 /* FIbTestTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		76BB20B72283C4F000EFBFA7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				76BB20C02283C4F000EFBFA7 /* FIbTestUITests.swift in Sources */,
+				76BB20D42283D0E100EFBFA7 /* FibonacciCache.swift in Sources */,
+				76BB20D22283CED200EFBFA7 /* SummaryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		76BB20B22283C4F000EFBFA7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 76BB209B2283C4EF00EFBFA7 /* FIbTest */;
-			targetProxy = 76BB20B12283C4F000EFBFA7 /* PBXContainerItemProxy */;
-		};
-		76BB20BD2283C4F000EFBFA7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 76BB209B2283C4EF00EFBFA7 /* FIbTest */;
-			targetProxy = 76BB20BC2283C4F000EFBFA7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		76BB20A32283C4EF00EFBFA7 /* Main.storyboard */ = {
@@ -462,88 +368,10 @@
 			};
 			name = Release;
 		};
-		76BB20C82283C4F000EFBFA7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FIbTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alex.FIbTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FIbTest.app/FIbTest";
-			};
-			name = Debug;
-		};
-		76BB20C92283C4F000EFBFA7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FIbTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alex.FIbTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FIbTest.app/FIbTest";
-			};
-			name = Release;
-		};
-		76BB20CB2283C4F000EFBFA7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FIbTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alex.FIbTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FIbTest;
-			};
-			name = Debug;
-		};
-		76BB20CC2283C4F000EFBFA7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FIbTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alex.FIbTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FIbTest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		76BB20972283C4EF00EFBFA7 /* Build configuration list for PBXProject "FIbTest" */ = {
+		76BB20972283C4EF00EFBFA7 /* Build configuration list for PBXProject "FibTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				76BB20C22283C4F000EFBFA7 /* Debug */,
@@ -557,24 +385,6 @@
 			buildConfigurations = (
 				76BB20C52283C4F000EFBFA7 /* Debug */,
 				76BB20C62283C4F000EFBFA7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		76BB20C72283C4F000EFBFA7 /* Build configuration list for PBXNativeTarget "FIbTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				76BB20C82283C4F000EFBFA7 /* Debug */,
-				76BB20C92283C4F000EFBFA7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		76BB20CA2283C4F000EFBFA7 /* Build configuration list for PBXNativeTarget "FIbTestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				76BB20CB2283C4F000EFBFA7 /* Debug */,
-				76BB20CC2283C4F000EFBFA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
